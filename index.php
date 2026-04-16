@@ -5,11 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./assets/css/header.css ?v=<?= time() ?>">
+    <link rel="stylesheet" href="./assets/css/main.css ?v=<?= time() ?>">
 </head>
 
 <body>
-    <?php require_once('./includes/header.php'); ?>
+    <?php require_once('./assets/include/header.php'); ?>
 
 </body>
 
