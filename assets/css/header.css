@@ -9,6 +9,10 @@ header {
     border-radius: 5px;
 }
 
+*{
+    font-family: sans-serif;
+}
+
 .logo {
     align-items: center;
     display: flex;
