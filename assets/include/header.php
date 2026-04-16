@@ -1,10 +1,8 @@
 <link rel="stylesheet" href="./assets/css/header.css ?v=<?= time() ?>">
 <header>
-    <div class="nav-gauche">
-        <div class="logo">
-            <a href="index.php"><img src="./assets/img/logo.png" alt="Logo"></a>
-            <a href="index.php" class="logo-text">Titre site</a>
-        </div>
+    <div class="logo">
+        <a href="index.php"><img src="./assets/img/logo.png" alt="Logo"></a>
+        <a href="index.php" class="logo-text"><h1>Titre site</h1></a>
     </div>
 
     <div class="nav-droite">
