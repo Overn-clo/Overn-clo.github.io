@@ -12,10 +12,4 @@
         <a href="/pages/parcours.php">Parcours</a>
         <a href="/pages/rdv.php">Prendre rendez-vous</a>
     </div>
-
-
-
-
-
-
 </header>
