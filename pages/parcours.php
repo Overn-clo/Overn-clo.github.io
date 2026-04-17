@@ -26,7 +26,7 @@
 
         <div class="presentation_mentor">
             <div class="img_mentor">
-                <img class="photo" src="../assets/img/mentor_img.png" alt="Photo_profil_m">
+                <img class="photo_mentor" src="../assets/img/mentor_img.png" alt="Photo_profil_m">
             </div>
 
             <div class="texte">
