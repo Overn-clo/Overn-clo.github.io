@@ -13,7 +13,8 @@
 
     <main>
 
-
+        <div class="backimage"></div>
+        
         <div class="pk_voir_prepa">
             <h1>Pourquoi voir un préparateur mental ?</h1>
             <p>kjvozobnsnbozn bmzljnvbkn zpjzon kj, xjz npajlzvks i^kk kj</p>
