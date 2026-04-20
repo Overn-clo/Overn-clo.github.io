@@ -11,7 +11,7 @@
 </head>
 
 <body>
-    <?php require_once($_SERVER['DOCUMENT_ROOT'] . '/assets/include/header.php'); ?>
+    <?php require_once('../assets/include/header.php'); ?>
 </body>
 
 </html>
