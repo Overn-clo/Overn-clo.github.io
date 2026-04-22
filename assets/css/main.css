@@ -9,6 +9,7 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    width: 100%;
+    background-attachment: fixed;
+    max-width: 100vw;
     height: 300px;
 }
