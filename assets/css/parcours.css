@@ -18,8 +18,28 @@
 }
 
 .texte {
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     padding: 10px;
+}
+
+.textes_colonnes {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 2rem;
+}
+
+.parcour1,
+.parcours2 {
+    flex: 1;
+}
+
+.separateur {
+    width: 2px;
+    align-self: stretch;
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 2px;
+    flex-shrink: 0;
 }
 
 .presentation_mentor {
@@ -39,4 +59,12 @@
     margin-left: 50px;
     margin-top: 30px;
     margin-bottom: 30px;
+}
+
+.philosophie {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    background-color: rgb(28, 32, 152);
 }

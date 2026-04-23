@@ -1,0 +1,40 @@
+.offres {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    background-color: rgb(44, 49, 184);
+}
+
+.fonctionne {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    background-color: rgb(32, 38, 222);
+}
+
+.texte {
+    color: white;
+    padding: 10px;
+}
+
+.texte a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    transition: background-color 0.2s;
+}
+
+.texte a:hover {
+    background-color: #0e079b;
+}
+
+.separateur {
+    width: 2px;
+    align-self: stretch;
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 2px;
+    flex-shrink: 0;
+}
