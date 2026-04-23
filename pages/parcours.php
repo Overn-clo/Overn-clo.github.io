@@ -24,6 +24,13 @@
             </div>
         </div>
 
+        <div class="philosophie">
+            <div class="texte">
+                <h1>Ma philosophie</h1>
+                <p>Po</p>
+            </div>
+        </div>
+
         <div class="presentation_mentor">
             <div class="img_mentor">
                 <img class="photo_mentor" src="../assets/img/mentor_img.png" alt="Photo_profil_m">
@@ -34,6 +41,8 @@
                 <p>Je suis son mentor</p>
             </div>
         </div>
+
+
     </main>
 </body>
 

@@ -15,19 +15,33 @@
 
     <main>
 
-        <div class="texte_rdv">
-            <h2>Prendre rendez-vous</h2>
-            <p>Choisis un créneau directement dans mon agenda :</p>
+        <div class="conteneur">
+
+            <div class="texte_rdv">
+                <h2>Prendre rendez-vous</h2>
+                <p>Renseigne tes informations pour pré-remplir le formulaire :</p>
+            </div>
+
+            <div class="form-rdv" id="form-rdv">
+                <input type="text" id="client-nom" placeholder="Prénom et nom" />
+                <input type="email" id="client-email" placeholder="Email" />
+                <select id="client-type">
+                    <option value="">-- Ton profil --</option>
+                    <option value="Etudiant">Etudiant</option>
+                    <option value="Rugbyman">Rugbyman</option>
+                    <option value="Autre">Autre</option>
+                </select>
+                <button onclick="afficherCalendly()">Choisir un créneau →</button>
+            </div>
+
+        </div>
+        <div class="calendly-wrapper" id="calendly-wrapper" style="display:none;">
+            <div id="calendly-container" style="min-width:320px; height:700px;"></div>
         </div>
 
-        <div class="calendly-wrapper">
-            <div class="calendly-inline-widget"
-                data-url="https://calendly.com/eric8124/30min?hide_event_type_details=1&hide_gdpr_banner=1"
-                style="min-width:320px; height:700px;">
-            </div>
-        </div>
-        
-        <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+        <script src="https://assets.calendly.com/assets/external/widget.js"></script>
+        <script src="../assets/js/rdv.js?v=<?= time() ?>"></script>
+
     </main>
 </body>
 
