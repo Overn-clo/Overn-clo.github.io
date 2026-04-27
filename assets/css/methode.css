@@ -1,34 +1,15 @@
-.offres {
-    display: flex;
-    align-items: center;
-    width: 100%;
-    justify-content: space-between;
-    background-color: rgb(44, 49, 184);
-}
-
 .fonctionne {
-    display: flex;
-    align-items: center;
-    width: 100%;
-    justify-content: space-between;
-    background-color: rgb(32, 38, 222);
+    background-color: #5047ff;
 }
 
-.texte {
+.fonctionne .texte,
+.offres .texte {
     color: white;
-    padding: 10px;
+    padding: 15px;
 }
 
-.texte a {
-    text-decoration: none;
-    color: white;
-    padding: 10px;
-    border-radius: 10px;
-    transition: background-color 0.2s;
-}
-
-.texte a:hover {
-    background-color: #0e079b;
+.mini-texte {
+    margin-left: 1.5rem;
 }
 
 .separateur {
@@ -36,5 +17,81 @@
     align-self: stretch;
     background-color: rgba(255, 255, 255, 0.4);
     border-radius: 2px;
+    flex-shrink: 0;
+}
+
+.zone {
+    padding: 1rem;
+    border-radius: 6px;
+    box-shadow: 8px 22px rgba(0, 0, 0, 0.12);
+    background-color: rgb(103, 103, 233);
+}
+
+.conteneur-zone {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    gap: 2rem;
+    padding: 2rem;
+}
+
+.offres {
+    display: flex;
+    align-items: stretch;
+    width: 100%;
+    background-color: rgb(44, 49, 184);
+}
+
+.offre_etudiant,
+.offre_sport {
+    flex: 1;
+    padding: 3rem 4rem;
+}
+
+.offres h2 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.offres strong {
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    opacity: 0.7;
+}
+
+.offres ul {
+    margin: 1rem 0;
+    padding-left: 1.2rem;
+    line-height: 2;
+}
+
+.offres .objectif {
+    font-style: italic;
+    opacity: 0.9;
+    margin-bottom: 2rem;
+}
+
+.prendre_rdv {
+    display: inline-block;
+    margin-top: 1.5rem;
+    padding: 0.8rem 2rem;
+    background-color: white;
+    color: rgb(44, 49, 184) !important;
+    border-radius: 50px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: background-color 0.2s, transform 0.2s;
+}
+
+.prendre_rdv:hover {
+    background-color: #e8e8ff;
+    transform: translateY(-2px);
+}
+
+.separateur {
+    width: 2px;
+    align-self: stretch;
+    background-color: rgba(255, 255, 255, 0.2);
     flex-shrink: 0;
 }
