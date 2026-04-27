@@ -6,7 +6,7 @@
     </div>
 
     <div class="nav-droite">
-        <a href="/pages/methode.php">Méthode</a>
+        <a href="/pages/methode.php">Méthode & Offres</a>
         <a href="/pages/parcours.php">Parcours</a>
         <a href="/pages/rdv.php">Prendre rendez-vous</a>
     </div>
