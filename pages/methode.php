@@ -43,6 +43,7 @@
         <div class="offres">
             <div class="offre_etudiant">
                 <div class="texte">
+                    <h2>Mes offres :</h2>
                     <h2>Étudiant</h2>
                     <strong>Accompagnement des étudiants</strong>
                     <p>Je travaille sur :</p>
@@ -59,7 +60,11 @@
                     <p class="objectif">Avancer avec clarté, confiance et efficacité.</p>
                     <a class="prendre_rdv" href="rdv.php">Prendre rendez-vous</a>
                 </div>
+                <div class="photo-etudiant">
+                    <img class="photo" src="../assets/img/etudiant_img.png">
+                </div>
             </div>
+
 
             <div class="separateur"></div>
 
@@ -79,6 +84,9 @@
                     <strong>Objectif :</strong>
                     <p class="objectif">Performer individuellement tout en renforçant le collectif.</p>
                     <a class="prendre_rdv" href="rdv.php">Prendre rendez-vous</a>
+                </div>
+                <div class="photo-rugbyman">
+                    <img class="photo" src="../assets/img/rugbyman_img.png">
                 </div>
             </div>
         </div>
