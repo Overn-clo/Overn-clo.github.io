@@ -1,9 +1,20 @@
-.presentation_eric {
+.presentation_eric, .presentation_mentor, .philosophie{
     display: flex;
     align-items: center;
     width: 100%;
     justify-content: space-between;
+}
+
+.presentation_eric {
     background-color: rgb(1, 5, 139);
+}
+
+.presentation_mentor {
+    background-color: rgb(28, 32, 152);
+}
+
+.philosophie {
+    background-color: rgb(42, 73, 177);
 }
 
 .photo {
@@ -12,9 +23,24 @@
     object-fit: cover;
     border-radius: 50%;
     border: 3px solid #020202;
-    margin-right: 50px;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin: 30px 50px 30px 0;
+}
+
+.zone {
+    padding: 1rem;
+    border-radius: 6px;
+    box-shadow: 0px 1px 32px rgba(0, 0, 0, 0.12);
+    background-color: rgb(103, 103, 233);
+}
+
+.conteneur-zone {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    gap: 2rem;
+    padding: 2rem;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 .texte {
@@ -22,15 +48,18 @@
     padding: 10px;
 }
 
+.philosophie .texte {
+    width: 100%;
+}
+
 .textes_colonnes {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
     gap: 2rem;
-    border-radius: 16px;
-    overflow: hidden;
-    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.12);
-    background-color:blue;
+    background-color: rgb(127, 208, 255);
+    padding: 10px;
+    border-radius: 6px;
 }
 
 .parcour1,
@@ -46,13 +75,6 @@
     flex-shrink: 0;
 }
 
-.presentation_mentor {
-    display: flex;
-    align-items: center;
-    width: 100%;
-    justify-content: space-between;
-    background-color: rgb(4, 10, 189);
-}
 
 .photo_mentor {
     width: 200px;
@@ -60,15 +82,5 @@
     object-fit: cover;
     border-radius: 50%;
     border: 3px solid #020202;
-    margin-left: 50px;
-    margin-top: 30px;
-    margin-bottom: 30px;
-}
-
-.philosophie {
-    display: flex;
-    align-items: center;
-    width: 100%;
-    justify-content: space-between;
-    background-color: rgb(28, 32, 152);
+    margin: 30px 0 30px 50px;
 }

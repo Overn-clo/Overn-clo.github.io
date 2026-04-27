@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
 <head>
     <meta charset="UTF-8">
@@ -27,23 +27,21 @@
                             Le terrain, l’engagement, le cadre.
 
                             Commence alors une période de doute, de remise en question et de reconstruction.
-                            Une période difficile, mais fondatrice.
+                            Une période difficile, mais fondatrice.</p>
 
-                            Je fais alors un choix : me reconstruire.<br> <br> <br>
+                        <strong>Je fais alors un choix : me reconstruire.</strong>
 
-                            Je reprends mes études à 26 ans et obtiens un Master 2 en école de commerce.
+                        <p>Je reprends mes études à 26 ans et obtiens un Master 2 en école de commerce.
                             Cette étape forge ma capacité à rebondir, à m’adapter et à avancer malgré l’incertitude.
 
-                            Je débute ensuite chez Airbus en tant que consultant en transfert de connaissances, avant de rejoindre les écoles EPSI pour développer le campus de Toulouse.
-
-                            Depuis plus de 6 ans, j’accompagne des étudiants dans des moments clés : orientation, recherche d’alternance, confiance en soi, passage à l’action.
-                            Aujourd’hui, en tant que coordinateur national, je travaille également sur la performance des équipes.
-                        </p>
+                            Je débute ensuite chez Airbus en tant que consultant en transfert de connaissances, avant de rejoindre les écoles EPSI pour développer le campus de Toulouse.</p>
                     </div>
 
                     <div class="separateur"></div>
 
                     <div class="parcours2">
+                        <p>Depuis plus de 6 ans, j’accompagne des étudiants dans des moments clés : orientation, recherche d’alternance, confiance en soi, passage à l’action.
+                            Aujourd’hui, en tant que coordinateur national, je travaille également sur la performance des équipes.</p>
                         <p>
                             En parallèle, je reste profondément ancré dans le rugby.
                             Diplômé entraîneur, j’ai accompagné pendant 5 ans des équipes cadets et juniors au niveau national.
@@ -68,12 +66,32 @@
 
         <div class="philosophie">
             <div class="texte">
-                <h1>Ma philosophie</h1>
-                <p>Pression, doute, perte de plaisir, baisse de performance.<br><br>
-                    Mon rôle :
-                    remettre de la clarté, de la confiance, de la concentration et du plaisir.<br><br>
-                    La performance doit être vécue pleinement.
-                </p>
+                <div class="mini-texte">
+                    <h2>Ma philosophie</h2>
+                    <p>Mon rôle :</p>
+                </div>
+                <div class="conteneur-zone">
+                    <div class="zone">
+                        <strong>1. Remettre de la clarté</strong>
+                        <p>Mieux se connaître pour mieux performer.</p>
+                    </div>
+                    <div class="zone">
+                        <strong>2. De la confiance</strong>
+                        <p>Apprendre à se réguler dans l'action.</p>
+                    </div>
+                    <div class="zone">
+                        <strong>3. De la concentration</strong>
+                        <p>Être pleinement présent dans les moments clés.</p>
+                    </div>
+                    <div class="zone">
+                        <strong>4. Du plaisir</strong>
+                        <p>Retrouver du plaisir pour libérer la performance.</p>
+                    </div>
+                    <div class="mini-texte">
+                        <p>Pression, doute, perte de plaisir, baisse de performance.</p>
+                        <p>La performance doit être vécue pleinement.</p>
+                    </div>
+                </div>
             </div>
         </div>
 
@@ -83,7 +101,7 @@
             </div>
 
             <div class="texte">
-                <h1>Mon mentor</h1>
+                <h2>Mon mentor</h2>
                 <p>Je suis son mentor</p>
             </div>
         </div>
