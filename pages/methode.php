@@ -62,6 +62,37 @@
                 </div>
                 <div class="photo-etudiant">
                     <img class="photo" src="../assets/img/etudiant_img.png">
+
+                    <div class="evaluation" id="eval-etudiant">
+                        <div class="eval-piste">
+                            <div class="eval-carte">
+                                <span class="eval-pseudo">Thomas R.</span>
+                                <p class="eval-commentaire">"Une aide précieuse pour retrouver confiance avant mes examens."</p>
+                                <div class="etoiles">★★★★★</div>
+                            </div>
+                            <div class="eval-carte">
+                                <span class="eval-pseudo">Léa M.</span>
+                                <p class="eval-commentaire">"J'ai enfin réussi à structurer mon projet professionnel."</p>
+                                <div class="etoiles">★★★★★</div>
+                            </div>
+                            <div class="eval-carte">
+                                <span class="eval-pseudo">Hugo D.</span>
+                                <p class="eval-commentaire">"Des séances concrètes qui m'ont vraiment aidé à passer à l'action."</p>
+                                <div class="etoiles">★★★★☆</div>
+                            </div>
+                        </div>
+                        <div class="eval-nav">
+                            <div class="eval-points">
+                                <span class="point active"></span>
+                                <span class="point"></span>
+                                <span class="point"></span>
+                            </div>
+                            <div class="eval-fleches">
+                                <button class="fleche" onclick="slide('eval-etudiant', -1)">←</button>
+                                <button class="fleche" onclick="slide('eval-etudiant', 1)">→</button>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
 
@@ -87,10 +118,41 @@
                 </div>
                 <div class="photo-rugbyman">
                     <img class="photo" src="../assets/img/rugbyman_img.png">
+
+                    <div class="evaluation" id="eval-sport">
+                        <div class="eval-piste">
+                            <div class="eval-carte">
+                                <span class="eval-pseudo">Maxime B.</span>
+                                <p class="eval-commentaire">"Mes performances sur le terrain ont clairement progressé."</p>
+                                <div class="etoiles">★★★★★</div>
+                            </div>
+                            <div class="eval-carte">
+                                <span class="eval-pseudo">Romain T.</span>
+                                <p class="eval-commentaire">"J'arrive mieux à gérer la pression avant les matchs importants."</p>
+                                <div class="etoiles">★★★★★</div>
+                            </div>
+                            <div class="eval-carte">
+                                <span class="eval-pseudo">Antoine L.</span>
+                                <p class="eval-commentaire">"Le travail sur la concentration a changé mon jeu."</p>
+                                <div class="etoiles">★★★★★</div>
+                            </div>
+                        </div>
+                        <div class="eval-nav">
+                            <div class="eval-points">
+                                <span class="point active"></span>
+                                <span class="point"></span>
+                                <span class="point"></span>
+                            </div>
+                            <div class="eval-fleches">
+                                <button class="fleche" onclick="slide('eval-sport', -1)">←</button>
+                                <button class="fleche" onclick="slide('eval-sport', 1)">→</button>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
     </main>
+    <script src="../assets/js/evaluation.js?v=<?= time() ?>"></script>
 </body>
 
 </html>
