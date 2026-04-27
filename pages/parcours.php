@@ -56,11 +56,11 @@
                             Aujourd’hui, j’accompagne les jeunes rugbymen et les étudiants à performer dans des environnements exigeants.
                         </p>
                     </div>
-                </div>
-            </div>
+                    <div class="img_Eric">
+                        <img class="photo" src="../assets/img/Eric_img.png" alt="Photo_profil">
+                    </div>
 
-            <div class="img_Eric">
-                <img class="photo" src="../assets/img/Eric_img.png" alt="Photo_profil">
+                </div>
             </div>
         </div>
 

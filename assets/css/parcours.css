@@ -45,11 +45,13 @@
 
 .texte {
     color: rgb(255, 255, 255);
-    padding: 10px;
+    padding: 20px;
 }
 
-.philosophie .texte {
+.philosophie .texte,
+.presentation_eric .texte {
     width: 100%;
+    flex: 1;
 }
 
 .textes_colonnes {
