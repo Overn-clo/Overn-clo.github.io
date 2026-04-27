@@ -73,23 +73,19 @@
                 <div class="conteneur-zone">
                     <div class="zone">
                         <strong>1. Remettre de la clarté</strong>
-                        <p>Mieux se connaître pour mieux performer.</p>
+                        <p class="objectif">Mieux se connaître pour mieux performer.</p>
                     </div>
                     <div class="zone">
                         <strong>2. De la confiance</strong>
-                        <p>Apprendre à se réguler dans l'action.</p>
+                        <p class="objectif">Apprendre à se réguler dans l'action.</p>
                     </div>
                     <div class="zone">
                         <strong>3. De la concentration</strong>
-                        <p>Être pleinement présent dans les moments clés.</p>
+                        <p class="objectif">Être pleinement présent dans les moments clés.</p>
                     </div>
                     <div class="zone">
                         <strong>4. Du plaisir</strong>
-                        <p>Retrouver du plaisir pour libérer la performance.</p>
-                    </div>
-                    <div class="mini-texte">
-                        <p>Pression, doute, perte de plaisir, baisse de performance.</p>
-                        <p>La performance doit être vécue pleinement.</p>
+                        <p class="objectif">Retrouver du plaisir pour libérer la performance.</p>
                     </div>
                 </div>
             </div>
