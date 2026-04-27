@@ -68,6 +68,7 @@
     border-radius: 16px;
     overflow: hidden;
     box-shadow: 0 8px 32px rgba(0, 0, 0, 0.12);
+    background-color: white;
 }
 
 .calendly-wrapper {
@@ -81,4 +82,8 @@
 
 .calendly-inline-widget {
     border-radius: 16px;
+}
+
+body {
+    background-color: #3d5af1;
 }
