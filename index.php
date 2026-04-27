@@ -14,11 +14,13 @@
     <main>
 
         <div class="backimage"></div>
-        
+
         <div class="pk_voir_prepa">
-            <h1>Pourquoi voir un préparateur mental ?</h1>
-            <p>kjvozobnsnbozn bmzljnvbkn zpjzon kj, xjz npajlzvks i^kk kj</p>
-            <a class="lien-methode" href="./pages/methode.php">Mes méthodes</a>
+            <p>Pression, doute, perte de plaisir, baisse de performance ?</p>
+            <h1>C'est ici que j'interviens !</h1>
+            <p>Mon but est de faire en sorte de vous redonnez le courage et de ouvrir les yeux sur votre valeur.
+            <p>La performance est ma <a class="lien-parcours" href="./pages/parcours.php">philosophie</a>, elle doit être vécue pleinement.</p>
+        <a class="lien-methode" href="./pages/methode.php">Mes méthodes</a>
         </div>
     </main>
 </body>
