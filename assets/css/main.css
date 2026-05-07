@@ -4,12 +4,165 @@ body {
     margin: 0;
 }
 
-.backimage {
-    background-image: url(../img/background1.png);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    max-width: 100vw;
+.intro{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    gap:30%;
+    background-color: rgb(17, 95, 249);
+    align-items: center;
+}
+
+.texte_intro{
+    margin-top: 2rem;
+    color: white;
+    padding: 5%;
+}
+
+.texte_intro b{
+    font-size: 5rem;
+    font-style: oblique ;
+}
+
+.texte_intro strong{
+    color: yellow;
+    font-style: italic;
+}
+
+.texte_intro p{
+    padding: 1%;
+}
+
+.texte_intro a{
+    text-decoration: none;
+    color: white;
+    padding: 7px;
+    transition: background-color 0.2s;
+    border-color: azure;
+    border-style: ridge;
+}
+
+.texte_intro a:hover {
+    background-color: #0e079b;
+}
+
+.image_Eric {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 50px 30px 0;
+}
+
+.image_Eric img {
+    width: 300px;
     height: 300px;
+    border-radius: 50%;
+    border: 3px solid #020202;
+    object-fit: cover;
+}
+
+.pk_voir_prepa .texte{
+    color: black;
+}
+
+.pk_voir_prepa b{
+    font-size: 3rem;
+    font-style: oblique ;
+}
+
+.texte_offre{
+    color: white;
+    padding: 1rem;
+}
+
+.texte_offre b {
+    font-size: 2rem;
+}
+
+.texte_offre em{
+    color: antiquewhite;
+}
+
+.texte_offre h2{
+    font-size: 1rem;
+}
+
+.offres {
+    background-color: rgb(44, 49, 184);
+}
+
+.offres_conteneur{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    align-items: start;
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;  
+}
+
+.offre_etudiant{
+    padding: 2rem;
+    background-color: #e8e8ff;
+    border-style: groove;
+    border-color: white;
+    box-shadow: 8px 8px 22px rgba(0, 0, 0, 0.12);
+}
+
+.texte1offre{
+    color: black;
+}
+
+.offre_sport {
+    padding: 3rem;
+    background-color: black;
+    border-style: groove;
+    border-color: white;
+    box-shadow: 8px 8px 22px rgba(0, 0, 0, 0.12);
+}
+
+.texte2offre{
+    color: white;
+}
+
+.offres h2 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.offres strong {
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    opacity: 0.7;
+}
+
+.offres ul {
+    margin: 1rem 0;
+    padding-left: 1.2rem;
+    line-height: 2;
+}
+
+.offres .objectif {
+    font-style: italic;
+    opacity: 0.9;
+    margin-bottom: 2rem;
+}
+
+.prendre_rdv {
+    display: inline-block;
+    margin-top: 1.5rem;
+    padding: 0.8rem 2rem;
+    background-color: white;
+    color: rgb(44, 49, 184) !important;
+    border-radius: 50px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: background-color 0.2s, transform 0.2s;
+}
+
+.prendre_rdv:hover {
+    background-color: #e8e8ff;
+    transform: translateY(-2px);
 }
