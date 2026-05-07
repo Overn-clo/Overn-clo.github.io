@@ -59,7 +59,6 @@
                     <div class="img_Eric">
                         <img class="photo" src="../assets/img/Eric_img.png" alt="Photo_profil">
                     </div>
-
                 </div>
             </div>
         </div>
