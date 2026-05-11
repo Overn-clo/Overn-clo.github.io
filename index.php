@@ -15,7 +15,10 @@
         <div class="intro">
             <div class="texte_intro">
                 <b>Envie de <strong>performer</strong> ?</b>
-                <p>Accompagnement mental pour rugbymans et étudiants.</p>
+                <p>Rugbyman, entraîneur de jeunes, ancien policier.</p>
+                <p>Un accident sur le terrain qui a tout changé.</p>
+                <p>J'ai reconstruit ma vie professionnelle de zéro et je sais ce que ça demande vraiment.</p>
+                <p>Aujourd'hui dans l'enseignement supérieur et préparateur mental, je mets ce parcours au service de votre performance.</p>
                 <a href="./pages/rdv.php">Démarrer maintenant !</a>
                 <a href="./pages/methode.php">Voir mes méthodes</a>
             </div>
@@ -29,15 +32,15 @@
             <div class="texte">
                 <b class="titre">Pression, doute, perte de plaisir, baisse de performance ?</b>
                 <h1>C'est ici que j'interviens !</h1>
-                <p>Mon but est de faire en sorte de vous redonnez le courage et de ouvrir les yeux sur votre valeur.
-                <p>La performance est ma <a class="lien-parcours" href="./pages/parcours.php">philosophie</a>, elle doit être vécue pleinement.</p>
+                <p>Mon but est de vous redonner confiance et de vous aider à reconnaître votre valeur.</p>
+                <p>La performance est ma <a class="lien-parcours" href="./pages/parcours.php">philosophie</a> — elle doit être vécue pleinement.</p>
             </div>
         </div>
 
         <div class="offres">
             <div class="texte_offre">
                 <b>DEUX <em>UNIVERS</em>, UNE SEULE <em>MISSION</em></b>
-                <p>Le rugby et les études partagent les mêmes défis : pression, gestion du stress, confiance en soin et bien plus encore. Je vois aide à les maitriser.</p>
+                <p>Le rugby et les études partagent les mêmes défis : pression, gestion du stress, confiance en soi et bien plus encore. Je vous aide à les maîtriser.</p>
                 <h2>Mes offres :</h2>
             </div>
 
@@ -82,7 +85,40 @@
                 </div>
             </div>
             <div class="texte_offre">
-                <p> </p>
+                <b class="titre">PREMIER APPEL OFFERT</b>
+                <p>30 minutes pour faire connaissance, cerner votre situation et vous dire clairement comment je peux vous aider. Sans engagement.</p>
+                <p>Basé à Toulouse — Interventions dans tout le Sud-Ouest et en France entière.</p>
+            </div>
+        </div>
+
+        <div class="format">
+            <div class="texte">
+                <div class="mini-texte">
+                    <b class="titre">Format d'accompagnement</b>
+                </div>
+                <div class="conteneur-format">
+                    <div class="zone-format">
+                        <strong>Séance terrain</strong>
+                        <p>Des sessions en présentiel, directement sur le terrain ou dans votre environnement.
+                            Pour travailler au plus près de la réalité.</p>
+                    </div>
+                    <div class="zone-format">
+                        <strong>Séances visio</strong>
+                        <p>Sessions individuelles en ligne, flexibles, accessibles partout en France.</p>
+                    </div>
+                    <div class="zone-format">
+                        <strong>Suivi collectif</strong>
+                        <p>Interventions en équipe ou en groupe classe, en présentiel ou à distance.</p>
+                    </div>
+                    <div class="zone-format">
+                        <strong>Accompagnement</strong>
+                        <p>Suivi sur plusieurs semaines autour d'une compétition ou d'un examen clé.</p>
+                    </div>
+                    <div class="zone-format">
+                        <strong>Formation</strong>
+                        <p>Ateliers de performance mentale pour académies, clubs et établissements.</p>
+                    </div>
+                </div>
             </div>
         </div>
 
@@ -119,43 +155,25 @@
                 <h2>Mon Parcours</h2>
                 <div class="textes_colonnes">
                     <div class="parcour1">
-                        <p>À 26 ans, tout s’arrête.
+                        <p>À 26 ans, tout s'arrête. <b>Un accident sur un terrain de rugby</b> met fin brutalement à ma pratique. Trois opérations du dos, des séquelles à la jambe… et la décision de quitter la police.</p>
 
-                            <b>Un accident sur un terrain de rugby</b> met fin brutalement à ma pratique.
-                            Trois opérations du dos, des séquelles à la jambe… et la décision de quitter la police.
-
-                            Du jour au lendemain, je perds mes repères.
-                            Le terrain, l’engagement, le cadre.
-
-                            Commence alors une période de doute, de remise en question et de reconstruction.
-                            Une période difficile, mais fondatrice.</p>
+                        <p>Du jour au lendemain, je perds mes repères : le terrain, l'engagement, le cadre. Commence alors une période de doute, de remise en question et de reconstruction. Une période difficile, mais fondatrice.</p>
 
                         <strong>Je fais alors un choix : me reconstruire.</strong>
 
-                        <p>Je reprends mes études à 26 ans et obtiens un Master 2 en école de commerce.
-                            Cette étape <b>forge ma capacité à rebondir, à m’adapter et à avancer malgré l’incertitude.</b>
-
-                            Je débute ensuite chez Airbus en tant que consultant en transfert de connaissances, avant de rejoindre les écoles EPSI pour développer le campus de Toulouse.</p>
+                        <p>Je reprends mes études à 26 ans et obtiens un Master 2 en école de commerce. Cette étape <b>forge ma capacité à rebondir, à m'adapter et à avancer malgré l'incertitude.</b> Je débute ensuite chez Airbus en tant que consultant en transfert de connaissances, avant de rejoindre les écoles EPSI pour développer le campus de Toulouse.</p>
                     </div>
 
                     <div class="separateur"></div>
 
                     <div class="parcours2">
-                        <p>Depuis plus de <b>6 ans</b>, j’accompagne des étudiants dans des moments clés : orientation, recherche d’alternance, confiance en soi, passage à l’action.
-                            Aujourd’hui, en tant que coordinateur national, je travaille également sur la performance des équipes.</p>
-                        <p>
-                            En parallèle, je reste profondément ancré dans le rugby.
-                            Diplômé entraîneur, j’ai accompagné pendant 5 ans des équipes cadets et juniors au <b>niveau national.</b>
+                        <p>Depuis plus de <b>6 ans</b>, j'accompagne des étudiants dans des moments clés : orientation, recherche d'alternance, confiance en soi et passage à l'action. Aujourd'hui, en tant que coordinateur national, je travaille également sur la performance des équipes.</p>
 
-                            C’est là qu’une évidence s’impose :
-                            <b>la performance se joue avant tout dans la tête.</b>
+                        <p>En parallèle, je reste profondément ancré dans le rugby. Diplômé entraîneur, j'ai accompagné pendant 5 ans des équipes cadets et juniors au <b>niveau national.</b></p>
 
-                            Je me forme alors à la préparation mentale, notamment avec <b>Olivier Lepretre et Christian Ramos.</b>
+                        <p>C'est là qu'une évidence s'impose : <b>la performance se joue avant tout dans la tête.</b> Je me forme alors à la préparation mentale, notamment avec <b>Olivier Lepretre et Christian Ramos</b>, et complète cette approche avec la Catch & Think Academy, spécialisée dans la concentration et l'attention.</p>
 
-                            Je complète cette approche avec la Catch & Think Academy, spécialisée dans la concentration et l’attention.
-
-                            Aujourd’hui, j’accompagne les jeunes rugbymen et les étudiants à performer dans des environnements exigeants.
-                        </p>
+                        <p>Aujourd'hui, j'accompagne les jeunes rugbymen et les étudiants à performer dans des environnements exigeants.</p>
                     </div>
                 </div>
             </div>
