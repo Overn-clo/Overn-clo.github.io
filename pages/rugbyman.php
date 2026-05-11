@@ -15,7 +15,7 @@
     <main>
         <div class="offre_sport">
             <div class="texte">
-                <h2>Sports</h2>
+                <h1>Sports</h1>
                 <strong>Accompagnement des jeunes rugbymen</strong>
                 <p>Je travaille sur :</p>
                 <ul>

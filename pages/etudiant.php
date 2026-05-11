@@ -15,6 +15,7 @@
     <main>
         <div class="offre_etudiant">
             <div class="texte">
+                <h1>Étudiant</h1>
                 <strong>Accompagnement des étudiants</strong>
                 <p>Je travaille sur :</p>
                 <ul>
