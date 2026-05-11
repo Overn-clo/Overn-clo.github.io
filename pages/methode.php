@@ -17,24 +17,31 @@
             <div class="texte">
                 <div class="mini-texte">
                     <h1>Comment je fonctionne</h1>
-                    <p>Mon approche repose sur 4 piliers :</p>
+                    <p>Mon approche repose sur 5 étapes :</p>
                 </div>
                 <div class="conteneur-zone">
                     <div class="zone">
-                        <strong>1. Identité & valeurs</strong>
-                        <p>Mieux se connaître pour mieux performer.</p>
+                        <strong>ÉTAPE 1. Se connaître avant tout</strong>
+                        <p>Valeurs, identité, motivations profondes. La base sans laquelle rien ne tient.</p>
                     </div>
                     <div class="zone">
-                        <strong>2. Gestion des émotions & respiration</strong>
-                        <p>Apprendre à se réguler dans l'action.</p>
+                        <strong>ÉTAPE 2. Comprendre et cibler</strong>
+                        <p>On fait le point ensemble sur vos freins, vos forces et ce que vous voulez vraiment atteindre. Concret et sans jugement.</p>
                     </div>
                     <div class="zone">
-                        <strong>3. Concentration & attention</strong>
-                        <p>Être pleinement présent dans les moments clés.</p>
+                        <strong>ÉTAPE 3. Apprendre les outils</strong>
+                        <p>Respiration, visualisation, gestion des émotions, routines. Des techniques éprouvées, adaptées à votre profil.</p>
                     </div>
                     <div class="zone">
-                        <strong>4. Plaisir & engagement</strong>
-                        <p>Retrouver du plaisir pour libérer la performance.</p>
+                        <strong>ÉTAPE 4. S'entraîner comme un sportif</strong>
+                        <p>Le mental ça se travaille, ça ne s'improvise pas. On répète, on ajuste, on ancre les habitudes dans le réel.</p>
+                    </div>
+                    <div class="zone">
+                        <strong>ÉTAPE 5. Performer quand ça compte</strong>
+                        <p>Match, examen, entretien. Vous arrivez préparé, pas en espérant que ça se passe bien.</p>
+                    </div>
+                    <div class="zone">
+                        <strong>Le mental, l'engagement... et le plaisir.</strong>
                     </div>
                 </div>
             </div>
