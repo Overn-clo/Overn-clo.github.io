@@ -16,7 +16,7 @@
 .philosophie {
     background-color: rgb(42, 73, 177);
 }
-
+/**
 .photo {
     width: 200px;
     height: 200px;
@@ -25,7 +25,7 @@
     border: 3px solid #020202;
     margin: 30px 50px 30px 0;
 }
-
+**/
 .zone {
     padding: 1rem;
     border-radius: 6px;
@@ -58,7 +58,6 @@
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    gap: 2rem;
     background-color: rgb(127, 208, 255);
     padding: 10px;
     border-radius: 6px;

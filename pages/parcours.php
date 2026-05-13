@@ -18,46 +18,31 @@
                 <h1>Mon Parcours</h1>
                 <div class="textes_colonnes">
                     <div class="parcour1">
-                        <p>À 26 ans, tout s’arrête.
+                        <p>Je suis pas venu à la prépa mentale par passion du développement personnel. J'y suis arrivé parce que la vie m'y a amené, les coups durs, les remises en question, et les leçons qu'on apprend quand on n'a plus le choix. Chaque étape m'a construit. C'est ce parcours que je mets aujourd'hui au service de ceux que j'accompagne.</p>
 
-                            Un accident sur un terrain de rugby met fin brutalement à ma pratique.
-                            Trois opérations du dos, des séquelles à la jambe… et la décision de quitter la police.
+                        <strong>RUGBY & POLICE — LA DISCIPLINE ET L'ENGAGEMENT</strong>
+                        <p>Tenir sous pression</p>
+                        <p>Sur le terrain et dans la police, j'ai appris ce que ça veut dire de tenir. Des situations difficiles, de la pression, des réalités dures. Ça forge. La discipline et le sens du collectif, pour moi c'est pas des valeurs qu'on affiche, c'est des choses qu'on vit.</p>
 
-                            Du jour au lendemain, je perds mes repères.
-                            Le terrain, l’engagement, le cadre.
-
-                            Commence alors une période de doute, de remise en question et de reconstruction.
-                            Une période difficile, mais fondatrice.</p>
-
-                        <strong>Je fais alors un choix : me reconstruire.</strong>
-
-                        <p>Je reprends mes études à 26 ans et obtiens un Master 2 en école de commerce.
-                            Cette étape forge ma capacité à rebondir, à m’adapter et à avancer malgré l’incertitude.
-
-                            Je débute ensuite chez Airbus en tant que consultant en transfert de connaissances, avant de rejoindre les écoles EPSI pour développer le campus de Toulouse.</p>
+                        <strong>L'ACCIDENT — RÉSILIENCE ET IDENTITÉ</strong>
+                        <p>Qui suis-je sans ça ?</p>
+                        <p>Trois opérations, des séquelles à vie, plus de rugby. D'un coup tu te retrouves face à toi-même et tu te demandes qui tu es sans ça. Ce travail sur mon identité, accepter que je suis pas qu'un rugbyman, c'est le tournant de tout.</p>
                     </div>
 
                     <div class="separateur"></div>
 
                     <div class="parcours2">
-                        <p>Depuis plus de 6 ans, j’accompagne des étudiants dans des moments clés : orientation, recherche d’alternance, confiance en soi, passage à l’action.
-                            Aujourd’hui, en tant que coordinateur national, je travaille également sur la performance des équipes.</p>
-                        <p>
-                            En parallèle, je reste profondément ancré dans le rugby.
-                            Diplômé entraîneur, j’ai accompagné pendant 5 ans des équipes cadets et juniors au niveau national.
+                        <strong>AIRBUS & L'ENTRAÎNEMENT — TRANSMISSION</strong>
+                        <p>Le mental fait toujours la différence</p>
+                        <p>Consultant chez Airbus, entraîneur de cadets et juniors nationaux pendant quatre ans. Deux univers différents, une même certitude : ce qui fait la différence c'est toujours le mental.</p>
 
-                            C’est là qu’une évidence s’impose :
-                            la performance se joue avant tout dans la tête.
+                        <strong>L'ENSEIGNEMENT SUPÉRIEUR — AU QUOTIDIEN AVEC LES ÉTUDIANTS</strong>
+                        <p>Je vis leur réalité</p>
+                        <p>Six ans à accompagner des centaines d'étudiants dans leurs projets, leurs galères, leur recherche d'alternance. Coordinateur national aujourd'hui. Je vis leur réalité tous les jours. Et ça change tout dans ma façon de les coacher.</p>
 
-                            Je me forme alors à la préparation mentale, notamment avec Olivier Lepretre et Christian Ramos.
-
-                            Je complète cette approche avec la Catch & Think Academy, spécialisée dans la concentration et l’attention.
-
-                            Aujourd’hui, j’accompagne les jeunes rugbymen et les étudiants à performer dans des environnements exigeants.
-                        </p>
-                    </div>
-                    <div class="img_Eric">
-                        <img class="photo" src="../assets/img/Eric_img.png" alt="Photo_profil">
+                        <strong>REPRENDRE LES ÉTUDES À 26 ANS — HUMILITÉ ET MÉTHODE</strong>
+                        <p>Recommencer de zéro</p>
+                        <p>Être le vieux de la promo, recommencer de zéro, réapprendre à apprendre. J'ai dû bosser ma concentration, changer mes méthodes. C'est dur. Et c'est exactement pour ça que je comprends ce que vivent mes étudiants.</p>
                     </div>
                 </div>
             </div>
@@ -96,8 +81,9 @@
             </div>
 
             <div class="texte">
-                <h2>Mon mentor</h2>
-                <p>Je suis son mentor</p>
+                <h2>FORMATION SPÉCIALISÉE</h2>
+                <p>Olivier Leprêtre & Christian Ramos</p>
+                <p>Formé auprès d'Olivier Leprêtre, préparateur mental du Stade Toulousain, puis avec Christian Ramos, l'un des PM les plus reconnus du rugby français.</p>
             </div>
         </div>
 
