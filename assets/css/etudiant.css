@@ -1,44 +1,51 @@
-.offres .texte{
-    color: white;
-}
-
-.offres {
+main {
+    background-color: #001F4D;
+    min-height: 100vh;
     display: flex;
     align-items: center;
-    width: 100%;
-    background-color: rgb(44, 49, 184);
+    justify-content: center;
 }
 
-.offre_etudiant,
-.offre_sport {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto auto;
-    justify-content: space-between;
-    gap: 15rem;
-    padding: 2rem;
-    background-color: rgb(44, 49, 184);
+.offre_page {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 4rem;
+    max-width: 900px;
+    width: 90%;
+    background-color: #003882;
+    border-radius: 20px;
+    padding: 3rem;
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.4);
+    margin: 3rem auto;
 }
 
-.offres h2 {
-    font-size: 2rem;
+.colonne_gauche {
+    color: white;
+    flex: 1;
+}
+
+.colonne_gauche h1 {
+    font-size: 2.5rem;
+    color: #F5C300;
     margin-bottom: 0.5rem;
 }
 
-.offres strong {
+.colonne_gauche strong {
     font-size: 0.85rem;
     text-transform: uppercase;
     letter-spacing: 0.1em;
     opacity: 0.7;
+    color: #F5C300;
 }
 
-.offres ul {
+.colonne_gauche ul {
     margin: 1rem 0;
     padding-left: 1.2rem;
     line-height: 2;
 }
 
-.offres .objectif {
+.colonne_gauche .objectif {
     font-style: italic;
     opacity: 0.9;
     margin-bottom: 2rem;
@@ -48,8 +55,8 @@
     display: inline-block;
     margin-top: 1.5rem;
     padding: 0.8rem 2rem;
-    background-color: white;
-    color: rgb(44, 49, 184) !important;
+    background-color: #F5C300;
+    color: #001233 !important;
     border-radius: 50px;
     font-weight: bold;
     text-decoration: none;
@@ -57,29 +64,29 @@
 }
 
 .prendre_rdv:hover {
-    background-color: #e8e8ff;
+    background-color: #d4a900;
     transform: translateY(-2px);
 }
 
-.photo-etudiant,
-.photo-rugbyman {
-    overflow: hidden;
-    width: 290px;
-    flex-grow: 0;
+.colonne_droite {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    flex-shrink: 0;
+    width: 220px;
 }
 
-.photo-etudiant img,
-.photo-rugbyman img {
+.photo-etudiant img {
     width: 180px;
     height: 180px;
     object-fit: cover;
-    flex-shrink: 1;
-    max-width: 100%;
+    border-radius: 50%;
+    border: 3px solid #F5C300;
 }
 
 .evaluation {
-    margin-top: 2rem;
-    width: 50%;
+    width: 100%;
     overflow: hidden;
 }
 
@@ -95,7 +102,6 @@
     padding: 1.2rem 1.5rem;
     box-sizing: border-box;
     color: white;
-    width: 320px;
 }
 
 .eval-pseudo {
@@ -112,7 +118,7 @@
 }
 
 .etoiles {
-    color: gold;
+    color: #F5C300;
     font-size: 1.1rem;
 }
 
@@ -138,7 +144,7 @@
 }
 
 .point.active {
-    background-color: white;
+    background-color: #F5C300;
 }
 
 .eval-fleches {
