@@ -5,36 +5,31 @@ header {
     justify-content: space-between;
     width: 100%;
     height: 80px;
-    background: #0f0979;
+    background: #160ea9;
     top: 0;
     z-index: 1000;
-    opacity: 0.9;
 }
 
 *{
     font-family: sans-serif;
 }
 
-.logo {
-    align-items: center;
-    display: flex;
-}
-
-.logo img {
-    padding: 10px;
-    width: 50px;
-    height: 50px;
-}
-
 .logo-text {
     text-decoration: none;
     color: white;
+    padding: 30px;
+    border-radius: 20px;
+    transition: background-color 0.2s;
+}
+
+.logo-text :hover {
+    background-color: #0e079b;
 }
 
 .nav-droite a{
     text-decoration: none;
     color: white;
-    padding: 10px;
+    padding: 30px;
     border-radius: 10px;
     transition: background-color 0.2s;
 }
