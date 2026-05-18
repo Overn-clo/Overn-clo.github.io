@@ -190,7 +190,7 @@ body {
 }
 
 .voir_detail:hover {
-    background-color: #553ffe;
+    background-color: #091181;
     transform: translateY(-2px);
 }
 
@@ -200,7 +200,7 @@ body {
 /**###############################################**/
 
 .texte_promo{
-    background-color: #D4AC0D;
+    background-color: #05129b;
     padding: 1rem;
 }
 

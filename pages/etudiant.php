@@ -73,17 +73,5 @@
 
         </div>
     </main>
-    <main>
-        <div class="offre_etudiant">
-            <div class="texte">
-
-            </div>
-            <div class="photo-etudiant">
-                <img class="photo" src="../assets/img/etudiant_img.png">
-
-
-            </div>
-        </div>
-    </main>
     <script src="../assets/js/evaluation.js?v=<?= time() ?>"></script>
 </body>
