@@ -33,7 +33,7 @@
                 <b class="titre">Pression, doute, perte de plaisir, baisse de performance ?</b>
                 <h1>C'est ici que j'interviens !</h1>
                 <p>Mon but est de vous redonner confiance et de vous aider à reconnaître votre valeur.</p>
-                <p>La performance est ma <a class="lien-parcours" href="./pages/parcours.php">philosophie</a> — elle doit être vécue pleinement.</p>
+                <p>La performance est ma <a class="lien_parcours" href="./pages/parcours.php">philosophie</a> — elle doit être vécue pleinement.</p>
             </div>
         </div>
 
@@ -62,6 +62,7 @@
                         <strong>Objectif :</strong>
                         <p class="objectif">Avancer avec clarté, confiance et efficacité.</p>
                         <a class="prendre_rdv" href="./pages/rdv.php">Prendre rendez-vous</a>
+                        <a class="voir_detail" href="./pages/etudiant.php">Voir plus de détail</a>
                     </div>
                 </div>
 
@@ -81,13 +82,14 @@
                         <strong>Objectif :</strong>
                         <p class="objectif">Performer individuellement tout en renforçant le collectif.</p>
                         <a class="prendre_rdv" href="./pages/rdv.php">Prendre rendez-vous</a>
+                        <a class="voir_detail" href="./pages/rugbyman.php">Voir plus de détail</a>
                     </div>
                 </div>
             </div>
-            <div class="texte_offre">
+            <div class="texte_promo">
                 <b class="titre">PREMIER APPEL OFFERT</b>
-                <p>30 minutes pour faire connaissance, cerner votre situation et vous dire clairement comment je peux vous aider. Sans engagement.</p>
-                <p>Basé à Toulouse — Interventions dans tout le Sud-Ouest et en France entière.</p>
+                <p class="text">30 minutes pour faire connaissance, cerner votre situation et vous dire clairement comment je peux vous aider. Sans engagement.</p>
+                <p class="text">Basé à Toulouse — Interventions dans tout le Sud-Ouest et en France entière.</p>
             </div>
         </div>
 
