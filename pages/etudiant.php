@@ -13,26 +13,31 @@
 <body>
     <?php require_once('../assets/include/header.php'); ?>
     <main>
-        <div class="offre_etudiant">
-            <div class="texte">
+        <div class="offre_page">
+
+            <div class="colonne_gauche">
                 <h1>Étudiant</h1>
                 <strong>Accompagnement des étudiants</strong>
+                <p>Examens, entretiens, première expérience pro : apprenez à performer quand ça compte, avec les mêmes outils que les sportifs de haut niveau.</p>
                 <p>Je travaille sur :</p>
                 <ul>
-                    <li>La confiance en soi</li>
-                    <li>La gestion du stress</li>
-                    <li>La concentration</li>
-                    <li>La clarté du projet</li>
-                    <li>L'organisation</li>
-                    <li>Le passage à l'action</li>
-                    <li>Le plaisir</li>
+                    <li>Utiliser les méthodes de préparation mentale des sportifs de haut niveau dans vos études et votre vie pro</li>
+                    <li>Maîtriser les techniques de respiration pour améliorer votre attention et votre concentration</li>
+                    <li>Construire des routines, une organisation solide et apprendre à cloisonner vos activités</li>
+                    <li>Renforcer votre confiance et votre estime de vous-même</li>
+                    <li>Identifier et mettre en avant vos points forts pour faire la différence</li>
+                    <li>Gérer le stress pour performer durant vos entretiens professionnels et vos examens</li>
+                    <li>Profiter d'un regard d'expérience pour vous conseiller dans vos choix d'orientation</li>
                 </ul>
                 <strong>Objectif :</strong>
                 <p class="objectif">Avancer avec clarté, confiance et efficacité.</p>
                 <a class="prendre_rdv" href="./pages/rdv.php">Prendre rendez-vous</a>
             </div>
-            <div class="photo-etudiant">
-                <img class="photo" src="../assets/img/etudiant_img.png">
+
+            <div class="colonne_droite">
+                <div class="photo-etudiant">
+                    <img src="../assets/img/etudiant_img.png" alt="Etudiant">
+                </div>
 
                 <div class="evaluation" id="eval-etudiant">
                     <div class="eval-piste">
@@ -64,6 +69,19 @@
                         </div>
                     </div>
                 </div>
+            </div>
+
+        </div>
+    </main>
+    <main>
+        <div class="offre_etudiant">
+            <div class="texte">
+
+            </div>
+            <div class="photo-etudiant">
+                <img class="photo" src="../assets/img/etudiant_img.png">
+
+
             </div>
         </div>
     </main>
