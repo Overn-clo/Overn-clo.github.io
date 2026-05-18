@@ -19,7 +19,7 @@ body {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto auto;
     gap: 30%;
-    background-color: #0047AB;
+    background-color: #033882;
     align-items: center;
 }
 
@@ -178,12 +178,42 @@ body {
 }
 
 .prendre_rdv:hover {
-    background-color: #b8960c;
     transform: translateY(-2px);
 }
 
+.voir_detail{
+    display: inline-block;
+    padding: 0.8rem;
+    color: #ffffff !important;
+    border-radius: 50px;
+    transition: background-color 0.2s, transform 0.2s;
+}
+
+.voir_detail:hover {
+    background-color: #553ffe;
+    transform: translateY(-2px);
+}
+
+.texte_vide{
+    background-color: #082653;
+}
 /**###############################################**/
 
+.texte_promo{
+    background-color: #D4AC0D;
+    padding: 1rem;
+}
+
+.texte_promo .titre{
+    font-size: 2rem;
+    color: rgb(255, 0, 0);
+}
+
+.texte_promo .text{
+    color: white;
+}
+
+/**###############################################**/
 .format {
     background-color: #001F4D;
 }
