@@ -50,3 +50,20 @@
     font-style: italic;
     font-size: large;
 }
+
+@media (max-width: 768px) {
+    .conteneur-zone {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+    }
+
+    .zone:nth-child(1),
+    .zone:nth-child(2),
+    .zone:nth-child(3),
+    .zone:nth-child(4),
+    .zone:nth-child(5),
+    .zone:nth-child(6) {
+        grid-column: auto;
+        grid-row: auto;
+    }
+}

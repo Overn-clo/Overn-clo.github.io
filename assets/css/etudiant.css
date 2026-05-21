@@ -167,3 +167,25 @@ main {
 .fleche:hover {
     background: rgba(255, 255, 255, 0.3);
 }
+
+@media (max-width: 768px) {
+    .offre_page {
+        flex-direction: column;
+        padding: 1.5rem;
+        gap: 2rem;
+        margin: 1rem auto;
+    }
+
+    .colonne_gauche h1 {
+        font-size: 1.8rem;
+    }
+
+    .colonne_droite {
+        width: 100%;
+    }
+
+    .photo-etudiant img{
+        width: 130px;
+        height: 130px;
+    }
+}

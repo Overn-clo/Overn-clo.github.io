@@ -87,3 +87,22 @@
 body {
     background-color: #3d5af1;
 }
+
+@media (max-width: 768px) {
+    .texte_rdv {
+        padding: 1rem;
+    }
+
+    .texte_rdv h2 {
+        font-size: 1.5rem;
+    }
+
+    .form-rdv {
+        padding: 0 0.5rem;
+    }
+
+    .calendly-wrapper {
+        padding: 0;
+        margin: 0 0.5rem 2rem;
+    }
+}

@@ -29,11 +29,33 @@ header {
 .nav-droite a{
     text-decoration: none;
     color: white;
-    padding: 30px;
+    padding: 10px;
     border-radius: 10px;
     transition: background-color 0.2s;
 }
 
 .nav-droite a:hover {
     background-color: #0e079b;
+}
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        height: auto;
+        padding: 1rem;
+        gap: 0.5rem;
+    }
+
+    .nav-droite {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 0.3rem;
+        padding-bottom: 0.5rem;
+    }
+
+    .nav-droite a {
+        font-size: 0.85rem;
+        padding: 6px 8px;
+    }
 }
