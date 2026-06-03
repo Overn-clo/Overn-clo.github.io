@@ -74,4 +74,5 @@
         </div>
     </main>
     <script src="../assets/js/evaluation.js?v=<?= time() ?>"></script>
+        <?php require_once('../assets/include/footer.php'); ?>
 </body>

@@ -47,7 +47,7 @@
             </div>
         </div>
     </main>
-
+    <?php require_once('../assets/include/footer.php'); ?>
 </body>
 
 </html>

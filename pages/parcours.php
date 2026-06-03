@@ -16,8 +16,8 @@
         <div class="presentation_eric">
             <div class="texte">
                 <h1>Mon Parcours</h1>
-                <div class="textes_colonnes">
-                    <div class="parcour1">
+                <div class="parcours-conteneur">
+                    <div class="parcours">
                         <p>Je suis pas venu à la prépa mentale par passion du développement personnel. J'y suis arrivé parce que la vie m'y a amené, les coups durs, les remises en question, et les leçons qu'on apprend quand on n'a plus le choix. Chaque étape m'a construit. C'est ce parcours que je mets aujourd'hui au service de ceux que j'accompagne.</p>
 
                         <strong>RUGBY & POLICE — LA DISCIPLINE ET L'ENGAGEMENT</strong>
@@ -27,11 +27,7 @@
                         <strong>L'ACCIDENT — RÉSILIENCE ET IDENTITÉ</strong>
                         <p>Qui suis-je sans ça ?</p>
                         <p>Trois opérations, des séquelles à vie, plus de rugby. D'un coup tu te retrouves face à toi-même et tu te demandes qui tu es sans ça. Ce travail sur mon identité, accepter que je suis pas qu'un rugbyman, c'est le tournant de tout.</p>
-                    </div>
 
-                    <div class="separateur"></div>
-
-                    <div class="parcours2">
                         <strong>AIRBUS & L'ENTRAÎNEMENT — TRANSMISSION</strong>
                         <p>Le mental fait toujours la différence</p>
                         <p>Consultant chez Airbus, entraîneur de cadets et juniors nationaux pendant quatre ans. Deux univers différents, une même certitude : ce qui fait la différence c'est toujours le mental.</p>
@@ -89,6 +85,7 @@
 
 
     </main>
+        <?php require_once('../assets/include/footer.php'); ?>
 </body>
 
 </html>
