@@ -26,6 +26,8 @@
     margin: 30px 50px 30px 0;
 }
 **/
+
+/*############################################################*/
 .zone {
     padding: 1rem;
     border-radius: 6px;
@@ -48,37 +50,29 @@
     padding: 20px;
 }
 
+.objectif {
+    font-style: italic;
+}
+
+/*############################################################*/
 .philosophie .texte,
 .presentation_eric .texte {
     width: 100%;
     flex: 1;
 }
 
-.textes_colonnes {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
+.parcours-conteneur {
     background-color: rgb(11, 33, 181);
-    padding: 10px;
+    padding: 2rem;
     border-radius: 6px;
+    line-height: 1.8;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
 }
 
-.parcour1,
-.parcours2 {
-    flex: 1;
-}
+/*############################################################*/
 
-.separateur {
-    width: 2px;
-    align-self: stretch;
-    background-color: rgba(255, 255, 255, 0.4);
-    border-radius: 2px;
-    flex-shrink: 0;
-}
-
-.objectif {
-    font-style: italic;
-}
 
 .photo_mentor {
     width: 200px;
