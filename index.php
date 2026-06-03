@@ -70,7 +70,7 @@
                         <strong>Objectif :</strong>
                         <p class="objectif">Avancer avec clarté, confiance et efficacité.</p>
                         <a class="prendre_rdv" href="./pages/rdv.php">Prendre rendez-vous</a>
-                        <a class="voir_detail" href="./pages/etudiant.php">Voir plus de détail</a>
+                        <a class="voir_detail" href="./pages/etudiant.php">Voir plus de détails</a>
                     </div>
                 </div>
 
@@ -97,7 +97,7 @@
                         <strong>Objectif :</strong>
                         <p class="objectif">Performer individuellement tout en renforçant le collectif.</p>
                         <a class="prendre_rdv" href="./pages/rdv.php">Prendre rendez-vous</a>
-                        <a class="voir_detail" href="./pages/rugbyman.php">Voir plus de détail</a>
+                        <a class="voir_detail" href="./pages/rugbyman.php">Voir plus de détails</a>
                     </div>
                 </div>
             </div>
