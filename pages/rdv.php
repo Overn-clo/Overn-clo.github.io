@@ -31,6 +31,7 @@
                     <option value="Rugbyman">Rugbyman</option>
                     <option value="Autre">Autre</option>
                 </select>
+                <input type="text" id="client-question" placeholder="Vous avez des questions avant le rendez-vous ? Posez les ici."/>
                 <button onclick="afficherCalendly()">Choisir un créneau →</button>
             </div>
 
@@ -43,6 +44,7 @@
         <script src="../assets/js/rdv.js?v=<?= time() ?>"></script>
 
     </main>
+        <?php require_once('../assets/include/footer.php'); ?>
 </body>
 
 </html>

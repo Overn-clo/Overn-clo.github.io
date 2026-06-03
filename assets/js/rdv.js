@@ -2,9 +2,10 @@ function afficherCalendly() {
     const nom = document.getElementById('client-nom').value.trim();
     const email = document.getElementById('client-email').value.trim();
     const type = document.getElementById('client-type').value.trim();
+    const question = document.getElementById('client-question').value.trim();
 
     if (!nom || !email || !type) {
-        alert('Merci de remplir tous les champs.');
+        alert('Merci de remplir les champs obligatoires.');
         return;
     }
 
@@ -13,7 +14,8 @@ function afficherCalendly() {
         + '&hide_gdpr_banner=1'
         + '&name=' + encodeURIComponent(nom)
         + '&email=' + encodeURIComponent(email)
-        + '&type=' + encodeURIComponent(type);
+        + '&a1=' + encodeURIComponent(type)
+        + '&a2=' + encodeURIComponent(question);
 
     Calendly.initInlineWidget({
         url: url,
@@ -22,5 +24,5 @@ function afficherCalendly() {
 
     document.getElementById('form-rdv').style.display = 'none';
     document.getElementById('calendly-wrapper').style.display = 'block';
-    document.getgetElementById('texte-rdv').innerHTML = '<h2>Choisissez un créneau</h2>';
+    document.querySelector('.texte_rdv').innerHTML = '<h2>Choisissez un créneau</h2>';
 }
