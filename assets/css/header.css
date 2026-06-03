@@ -26,6 +26,14 @@ header {
     background-color: #0e079b;
 }
 
+.btn-rdv {
+    background-color: #D4AC0D;
+    color: #001F4D !important;
+    font-weight: bold;
+    border-radius: 50px !important;
+    padding: 8px 16px !important;
+}
+
 .nav-droite a{
     text-decoration: none;
     color: white;
@@ -36,6 +44,7 @@ header {
 
 .nav-droite a:hover {
     background-color: #0e079b;
+    color: white !important;
 }
 
 @media (max-width: 768px) {
