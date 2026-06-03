@@ -29,8 +29,8 @@ body {
 }
 
 .texte_intro b {
-    font-size: 5rem;
-    font-style: oblique;
+    font-size: 3.92rem;
+    font-style:monda;
 }
 
 .texte_intro strong {
@@ -291,31 +291,41 @@ body {
     background-color: #001F4D;
 }
 
-.textes_colonnes {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    gap: 2rem;
+.presentation_eric .texte{
+    width: 100%;
+}
+
+.parcours-conteneur {
     background-color: #0047AB;
-    padding: 10px;
+    padding: 2rem;
     border-radius: 6px;
+    line-height: 1.8;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
 }
 
-.parcour1,
-.parcours2 {
-    flex: 1;
+/*##############################################################*/
+.intro,
+.pk_voir_prepa,
+.offres,
+.format,
+.fonctionne,
+.presentation_eric {
+    min-height: 100vh;
+    box-sizing: border-box;
 }
 
-.separateur {
-    width: 2px;
-    align-self: stretch;
-    background-color: #D4AC0D;
-    border-radius: 2px;
-    flex-shrink: 0;
+.pk_voir_prepa,
+.format {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
 }
 
 @media (max-width: 768px) {
-    /* Intro */
+    /*Intro*/
     .intro {
         grid-template-columns: 1fr;
         gap: 0;

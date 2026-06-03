@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Accueil</title>
     <link rel="stylesheet" href="./assets/css/main.css ?v=<?= time() ?>">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Monda:wght@400..700&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -34,6 +37,7 @@
                 <h1>C'est ici que j'interviens !</h1>
                 <p>Mon but est de vous redonner confiance et de vous aider à reconnaître votre valeur.</p>
                 <p>La performance est ma <a class="lien_parcours" href="./pages/parcours.php">philosophie</a> — elle doit être vécue pleinement.</p>
+                <p>Ensemble, nous travaillerons sur vos blocages pour transformer le stress en moteur de réussite. Que vous soyez athlète, étudiant ou en pleine transition professionnelle, je vous propose un accompagnement sur mesure pour libérer votre plein potentiel et retrouver le plaisir de performer.</p>
             </div>
         </div>
 
@@ -47,7 +51,11 @@
             <div class="offres_conteneur">
                 <div class="offre_etudiant">
                     <div class="texte1offre">
-                        <h2>Étudiant</h2>
+                        <h2>Étudiant <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-graduation-cap-icon lucide-graduation-cap">
+                                <path d="M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0z" />
+                                <path d="M22 10v6" />
+                                <path d="M6 12.5V16a6 3 0 0 0 12 0v-3.5" />
+                            </svg></h2>
                         <strong>Accompagnement des étudiants</strong>
                         <p>Je travaille sur :</p>
                         <ul>
@@ -68,7 +76,14 @@
 
                 <div class="offre_sport">
                     <div class="texte2offre">
-                        <h2>Sports</h2>
+                        <h2>Sports <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-trophy-icon lucide-trophy">
+                                <path d="M10 14.66v1.626a2 2 0 0 1-.976 1.696A5 5 0 0 0 7 21.978" />
+                                <path d="M14 14.66v1.626a2 2 0 0 0 .976 1.696A5 5 0 0 1 17 21.978" />
+                                <path d="M18 9h1.5a1 1 0 0 0 0-5H18" />
+                                <path d="M4 22h16" />
+                                <path d="M6 9a6 6 0 0 0 12 0V3a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1z" />
+                                <path d="M6 9H4.5a1 1 0 0 1 0-5H6" />
+                            </svg></h2>
                         <strong>Accompagnement des jeunes rugbymen</strong>
                         <p>Je travaille sur :</p>
                         <ul>
@@ -100,24 +115,45 @@
                 </div>
                 <div class="conteneur-format">
                     <div class="zone-format">
-                        <strong>Séance terrain</strong>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-calendar-check-icon lucide-calendar-check">
+                            <path d="M8 2v4" />
+                            <path d="M16 2v4" />
+                            <rect width="18" height="18" x="3" y="4" rx="2" />
+                            <path d="M3 10h18" />
+                            <path d="m9 16 2 2 4-4" />
+                        </svg><strong>Séance terrain</strong>
                         <p>Des sessions en présentiel, directement sur le terrain ou dans votre environnement.
                             Pour travailler au plus près de la réalité.</p>
                     </div>
                     <div class="zone-format">
-                        <strong>Séances visio</strong>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-eye-icon lucide-eye">
+                            <path d="M2.062 12.348a1 1 0 0 1 0-.696 10.75 10.75 0 0 1 19.876 0 1 1 0 0 1 0 .696 10.75 10.75 0 0 1-19.876 0" />
+                            <circle cx="12" cy="12" r="3" />
+                        </svg><strong>Séances visio</strong>
                         <p>Sessions individuelles en ligne, flexibles, accessibles partout en France.</p>
                     </div>
                     <div class="zone-format">
-                        <strong>Suivi collectif</strong>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-user-icon lucide-user">
+                            <path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2" />
+                            <circle cx="12" cy="7" r="4" />
+                        </svg><strong>Suivi collectif</strong>
                         <p>Interventions en équipe ou en groupe classe, en présentiel ou à distance.</p>
                     </div>
                     <div class="zone-format">
-                        <strong>Accompagnement</strong>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-heart-handshake-icon lucide-heart-handshake">
+                            <path d="M19.414 14.414C21 12.828 22 11.5 22 9.5a5.5 5.5 0 0 0-9.591-3.676.6.6 0 0 1-.818.001A5.5 5.5 0 0 0 2 9.5c0 2.3 1.5 4 3 5.5l5.535 5.362a2 2 0 0 0 2.879.052 2.12 2.12 0 0 0-.004-3 2.124 2.124 0 1 0 3-3 2.124 2.124 0 0 0 3.004 0 2 2 0 0 0 0-2.828l-1.881-1.882a2.41 2.41 0 0 0-3.409 0l-1.71 1.71a2 2 0 0 1-2.828 0 2 2 0 0 1 0-2.828l2.823-2.762" />
+                        </svg><strong>Accompagnement</strong>
                         <p>Suivi sur plusieurs semaines autour d'une compétition ou d'un examen clé.</p>
                     </div>
                     <div class="zone-format">
-                        <strong>Formation</strong>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-notebook-icon lucide-notebook">
+                            <path d="M2 6h4" />
+                            <path d="M2 10h4" />
+                            <path d="M2 14h4" />
+                            <path d="M2 18h4" />
+                            <rect width="16" height="20" x="4" y="2" rx="2" />
+                            <path d="M16 2v20" />
+                        </svg><strong>Formation</strong>
                         <p>Ateliers de performance mentale pour académies, clubs et établissements.</p>
                     </div>
                 </div>
@@ -155,32 +191,32 @@
             <div class="texte">
                 <b class="titre">MON CHEMIN</b>
                 <h2>Mon Parcours</h2>
-                <div class="textes_colonnes">
-                    <div class="parcour1">
-                        <p>À 26 ans, tout s'arrête. <b>Un accident sur un terrain de rugby</b> met fin brutalement à ma pratique. Trois opérations du dos, des séquelles à la jambe… et la décision de quitter la police.</p>
+                <div class="parcours-conteneur">
 
-                        <p>Du jour au lendemain, je perds mes repères : le terrain, l'engagement, le cadre. Commence alors une période de doute, de remise en question et de reconstruction. Une période difficile, mais fondatrice.</p>
+                    <p>À 26 ans, tout s'arrête.</p>
 
-                        <strong>Je fais alors un choix : me reconstruire.</strong>
+                    <p> <b>Un accident sur un terrain de rugby</b> met fin brutalement à ma pratique. Trois opérations du dos, des séquelles à la jambe… et la décision de quitter la police.</p>
 
-                        <p>Je reprends mes études à 26 ans et obtiens un Master 2 en école de commerce. Cette étape <b>forge ma capacité à rebondir, à m'adapter et à avancer malgré l'incertitude.</b> Je débute ensuite chez Airbus en tant que consultant en transfert de connaissances, avant de rejoindre les écoles EPSI pour développer le campus de Toulouse.</p>
-                    </div>
+                    <p>Du jour au lendemain, je perds mes repères : le terrain, l'engagement, le cadre.</p>
 
-                    <div class="separateur"></div>
+                    <p>Commence alors une période de doute, de remise en question et de reconstruction. Une période difficile, mais fondatrice.</p>
 
-                    <div class="parcours2">
-                        <p>Depuis plus de <b>6 ans</b>, j'accompagne des étudiants dans des moments clés : orientation, recherche d'alternance, confiance en soi et passage à l'action. Aujourd'hui, en tant que coordinateur national, je travaille également sur la performance des équipes.</p>
+                    <strong>Je fais alors un choix : me reconstruire.</strong>
 
-                        <p>En parallèle, je reste profondément ancré dans le rugby. Diplômé entraîneur, j'ai accompagné pendant 5 ans des équipes cadets et juniors au <b>niveau national.</b></p>
+                    <p>Je reprends mes études à 26 ans et obtiens un Master 2 en école de commerce. Cette étape <b>forge ma capacité à rebondir, à m'adapter et à avancer malgré l'incertitude.</b> Je débute ensuite chez Airbus en tant que consultant en transfert de connaissances, avant de rejoindre les écoles EPSI pour développer le campus de Toulouse.</p>
 
-                        <p>C'est là qu'une évidence s'impose : <b>la performance se joue avant tout dans la tête.</b> Je me forme alors à la préparation mentale, notamment avec <b>Olivier Lepretre et Christian Ramos</b>, et complète cette approche avec la Catch & Think Academy, spécialisée dans la concentration et l'attention.</p>
+                    <p>Depuis plus de <b>6 ans</b>, j'accompagne des étudiants dans des moments clés : orientation, recherche d'alternance, confiance en soi et passage à l'action. Aujourd'hui, en tant que coordinateur national, je travaille également sur la performance des équipes.</p>
 
-                        <p>Aujourd'hui, j'accompagne les jeunes rugbymen et les étudiants à performer dans des environnements exigeants.</p>
-                    </div>
+                    <p>En parallèle, je reste profondément ancré dans le rugby. Diplômé entraîneur, j'ai accompagné pendant 5 ans des équipes cadets et juniors au <b>niveau national.</b></p>
+
+                    <p>C'est là qu'une évidence s'impose : <b>la performance se joue avant tout dans la tête.</b> Je me forme alors à la préparation mentale, notamment avec <b>Olivier Lepretre et Christian Ramos</b>, et complète cette approche avec la Catch & Think Academy, spécialisée dans la concentration et l'attention.</p>
+
+                    <p>Aujourd'hui, j'accompagne les jeunes rugbymen et les étudiants à performer dans des environnements exigeants.</p>
                 </div>
             </div>
         </div>
     </main>
+    <?php require_once('./assets/include/footer.php'); ?>
 </body>
 
 </html>
