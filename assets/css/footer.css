@@ -33,6 +33,11 @@ footer {
     color: #D4AC0D;
 }
 
+.colonne-place {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
 .footer-colonne p {
     margin-bottom: 0.5rem;
     line-height: 1.6;
