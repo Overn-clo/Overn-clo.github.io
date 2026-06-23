@@ -43,11 +43,11 @@ Plaintext :
     ├── img/                # Images, icônes et polices
     ├── js/                 # Scripts JavaScript
     ├── includes/           # Fichiers PHP réutilisables (header, footer, config)
-├── index.php           # Page d'accueil
+├── index.html           # Page d'accueil
 ├── pages/
-    ├── rdv.php             # Gestionnaire pour prendre rendez-vous
-    ├── methode.php         # Présentation des méthodes
-    └── parcours.php         # Présentation des études
+    ├── rdv.html             # Gestionnaire pour prendre rendez-vous
+    ├── methode.html         # Présentation des méthodes
+    └── parcours.html         # Présentation des études
 
 Licence
 Ce projet est privé. Tous droits réservés au client et au développeur.

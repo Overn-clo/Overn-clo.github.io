@@ -5,14 +5,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Accueil</title>
-    <link rel="stylesheet" href="./assets/css/main.css ?v=<?= time() ?>">
+    <link rel="stylesheet" href="./assets/css/main.css ?v=1">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Monda:wght@400..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/css/header.css ?v=1">
+    <link rel="stylesheet" href="/assets/css/footer.css ?v=1">
 </head>
 
 <body>
-    <?php require_once('./assets/include/header.php'); ?>
+    <header>
+        <a href="/index.html" class="logo-text">
+            <h1>Accueil</h1>
+        </a>
+
+        <div class="nav-droite">
+            <a href="/pages/etudiant.html">Etudiant</a>
+            <a href="/pages/rugbyman.html">Rugbyman</a>
+            <a href="/pages/methode.html">Méthode</a>
+            <a href="/pages/parcours.html">Parcours</a>
+            <a href="/pages/rdv.html" class="btn-rdv">Prendre rendez-vous</a>
+        </div>
+    </header>
 
     <main>
         <div class="intro">
@@ -22,8 +36,8 @@
                 <p>Un accident sur le terrain qui a tout changé.</p>
                 <p>J'ai reconstruit ma vie professionnelle de zéro et je sais ce que ça demande vraiment.</p>
                 <p>Aujourd'hui dans l'enseignement supérieur et préparateur mental, je mets ce parcours au service de votre performance.</p>
-                <a href="./pages/rdv.php">Démarrer maintenant !</a>
-                <a href="./pages/methode.php">Voir mes méthodes</a>
+                <a href="./pages/rdv.html">Démarrer maintenant !</a>
+                <a href="./pages/methode.html">Voir mes méthodes</a>
             </div>
 
             <div class="image_Eric">
@@ -36,7 +50,7 @@
                 <b class="titre">Pression, doute, perte de plaisir, baisse de performance ?</b>
                 <h1>C'est ici que j'interviens !</h1>
                 <p>Mon but est de vous redonner confiance et de vous aider à reconnaître votre valeur.</p>
-                <p>La performance est ma <a class="lien_parcours" href="./pages/parcours.php">philosophie</a> — elle doit être vécue pleinement.</p>
+                <p>La performance est ma <a class="lien_parcours" href="./pages/parcours.html">philosophie</a> — elle doit être vécue pleinement.</p>
                 <p>Ensemble, nous travaillerons sur vos blocages pour transformer le stress en moteur de réussite. Que vous soyez athlète, étudiant ou en pleine transition professionnelle, je vous propose un accompagnement sur mesure pour libérer votre plein potentiel et retrouver le plaisir de performer.</p>
             </div>
         </div>
@@ -69,8 +83,8 @@
                         </ul>
                         <strong>Objectif :</strong>
                         <p class="objectif">Avancer avec clarté, confiance et efficacité.</p>
-                        <a class="prendre_rdv" href="./pages/rdv.php">Prendre rendez-vous</a>
-                        <a class="voir_detail" href="./pages/etudiant.php">Voir plus de détails</a>
+                        <a class="prendre_rdv" href="./pages/rdv.html">Prendre rendez-vous</a>
+                        <a class="voir_detail" href="./pages/etudiant.html">Voir plus de détails</a>
                     </div>
                 </div>
 
@@ -96,8 +110,8 @@
                         </ul>
                         <strong>Objectif :</strong>
                         <p class="objectif">Performer individuellement tout en renforçant le collectif.</p>
-                        <a class="prendre_rdv" href="./pages/rdv.php">Prendre rendez-vous</a>
-                        <a class="voir_detail" href="./pages/rugbyman.php">Voir plus de détails</a>
+                        <a class="prendre_rdv" href="./pages/rdv.html">Prendre rendez-vous</a>
+                        <a class="voir_detail" href="./pages/rugbyman.html">Voir plus de détails</a>
                     </div>
                 </div>
             </div>
@@ -216,7 +230,38 @@
             </div>
         </div>
     </main>
-    <?php require_once('./assets/include/footer.php'); ?>
+    <footer>
+        <div class="footer-contenu">
+
+            <div class="footer-colonne">
+                <h3>Eric Préparation Mentale</h3>
+                <p>Accompagnement mental pour rugbymen et étudiants.</p>
+                <p>Basé à Toulouse - Interventions dans tout le Sud-Ouest et en France entière.</p>
+            </div>
+
+            <div class="footer-colonne">
+                <h3>Navigation</h3>
+                <div class="colonne-place">
+                    <div class="colonne1">
+                        <a href="/index.html">Accueil</a>
+                        <a href="/pages/etudiant.html">Étudiant</a>
+                        <a href="/pages/rugbyman.html">Rugbyman</a>
+                    </div>
+                    <div class="colonne2">
+                        <a href="/pages/methode.html">Méthode</a>
+                        <a href="/pages/parcours.html">Parcours</a>
+                        <a href="/pages/rdv.html">Prendre rendez-vous</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bas">
+            <p>&copy; 2026 Eric Préparation Mentale - Tous droits réservés</p>
+            <a href="/pages/mentions-legales.html">Mentions légales</a>
+            <a href="/pages/confidentialite.html">Politique de confidentialité</a>
+        </div>
+    </footer>
 </body>
 
 </html>
