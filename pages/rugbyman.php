@@ -15,9 +15,9 @@
         <div class="offre_page">
 
             <div class="colonne_gauche">
-                <h1>Sports</h1>
+                <h1>Rugbymen</h1>
                 <strong>Accompagnement des jeunes rugbymen</strong>
-                <p>Pour les rugbymans de 10 ans à adulte qui veulent donner le meilleur d'eux-mêmes sur le terrain.</p>
+                <p>Pour les rugbymen de 10 ans à adulte qui veulent donner le meilleur d'eux-mêmes sur le terrain.</p>
                 <p>Je travaille sur :</p>
                 <ul>
                     <li>Le stress, apprendre à s'en servir plutôt que le subir</li>
